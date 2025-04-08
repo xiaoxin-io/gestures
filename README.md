@@ -37,17 +37,8 @@ pip install django
 运行 Django 应用：
 python manage.py runserver
 打开浏览器，访问 http://127.0.0.1:8000 查看效果。
-项目结构
-project-folder/
-│
-├── app.py                # Flask 应用入口
-├── app2.py               # Django 视图文件
-├── handutils3.py         # 手势识别工具类
-├── index.html            # Flask 版本的前端页面
-├── urls.py               # Django 的 URL 配置
-├── video_feed.html       # Django 版本的视频流页面
-└── README.md             # 项目说明文档
-注意事项
+
+注意事项：
 确保摄像头正常工作。
 根据实际情况调整 font_path，指定正确的中文字体路径。
 如果使用 Django 版本，请确保 urls.py 中的路由配置正确。
